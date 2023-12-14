@@ -1,0 +1,131 @@
+{
+  "name": "Weather Details_Tests",
+  "projectId": "fea840bd-c482-473c-976c-e5d170240b22",
+  "description": "Weather Details",
+  "main": "Main.xaml",
+  "dependencies": {
+    "UiPath.Excel.Activities": "[2.22.3]",
+    "UiPath.Mail.Activities": "[1.21.2]",
+    "UiPath.System.Activities.Runtime": "[23.10.3]",
+    "UiPath.Testing.Activities": "[23.10.0]",
+    "UiPath.UIAutomation.Activities.Runtime": "[23.10.8]"
+  },
+  "webServices": [],
+  "entitiesStores": [],
+  "schemaVersion": "4.0",
+  "studioVersion": "23.10.2.0",
+  "projectVersion": "1.0.156266702",
+  "runtimeOptions": {
+    "autoDispose": false,
+    "netFrameworkLazyLoading": false,
+    "isPausable": true,
+    "isAttended": false,
+    "requiresUserInteraction": true,
+    "supportsPersistence": false,
+    "workflowSerialization": "DataContract",
+    "excludedLoggedData": [
+      "Private:*",
+      "*password*"
+    ],
+    "executionType": "Workflow",
+    "readyForPiP": false,
+    "startsInPiP": false,
+    "mustRestoreAllDependencies": true,
+    "pipType": "ChildSession"
+  },
+  "designOptions": {
+    "projectProfile": "Developement",
+    "outputType": "Tests",
+    "libraryOptions": {
+      "includeOriginalXaml": false,
+      "privateWorkflows": []
+    },
+    "processOptions": {
+      "ignoredFiles": []
+    },
+    "fileInfoCollection": [
+      {
+        "editingStatus": "Publishable",
+        "testCaseId": "3383b719-b965-4bb0-8fc1-eb3fe5b4c6ea",
+        "testCaseType": "TestCase",
+        "executionTemplateInvokeIsolated": false,
+        "fileName": "Test Cases\\TestCase3-WeatherDetails.xaml"
+      },
+      {
+        "editingStatus": "Publishable",
+        "testCaseId": "1c15cd9e-2c3e-4c8e-b79b-d4c0d0c1b9d3",
+        "testCaseType": "TestCase",
+        "executionTemplateInvokeIsolated": false,
+        "fileName": "Test Cases\\TestCase2-WeatherDetails.xaml"
+      },
+      {
+        "editingStatus": "Publishable",
+        "testCaseId": "cde6d211-53df-4a98-8677-0d62cd67ed6d",
+        "testCaseType": "TestCase",
+        "executionTemplateInvokeIsolated": false,
+        "fileName": "Test Cases\\TestCase1-WeatherDetails.xaml"
+      },
+      {
+        "editingStatus": "Publishable",
+        "testCaseId": "d0b2a08a-fd0e-409b-8458-b79396e64cfa",
+        "dataVariationFilePath": ".variations\\TestData_Sheet1.json",
+        "testCaseType": "TestCase",
+        "executionTemplateInvokeIsolated": false,
+        "fileName": "Test Cases\\TestCase4-WeatherDetails-DataDriven.xaml"
+      }
+    ],
+    "modernBehavior": true,
+    "saveToCloud": false
+  },
+  "expressionLanguage": "VisualBasic",
+  "entryPoints": [
+    {
+      "filePath": "Test Cases\\TestCase3-WeatherDetails.xaml",
+      "uniqueId": "3383b719-b965-4bb0-8fc1-eb3fe5b4c6ea",
+      "input": [],
+      "output": []
+    },
+    {
+      "filePath": "Test Cases\\TestCase2-WeatherDetails.xaml",
+      "uniqueId": "1c15cd9e-2c3e-4c8e-b79b-d4c0d0c1b9d3",
+      "input": [],
+      "output": []
+    },
+    {
+      "filePath": "Test Cases\\TestCase1-WeatherDetails.xaml",
+      "uniqueId": "cde6d211-53df-4a98-8677-0d62cd67ed6d",
+      "input": [],
+      "output": []
+    },
+    {
+      "filePath": "Test Cases\\TestCase4-WeatherDetails-DataDriven.xaml",
+      "uniqueId": "d0b2a08a-fd0e-409b-8458-b79396e64cfa",
+      "input": [
+        {
+          "name": "City",
+          "type": "System.String, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e",
+          "required": false,
+          "hasDefault": true
+        },
+        {
+          "name": "ExpectedTemperature_LowerBound",
+          "type": "System.String, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e",
+          "required": false,
+          "hasDefault": true
+        },
+        {
+          "name": "ExpectedTemperature_UpperBound",
+          "type": "System.String, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e",
+          "required": false,
+          "hasDefault": true
+        }
+      ],
+      "output": []
+    }
+  ],
+  "isTemplate": false,
+  "templateProjectData": {},
+  "publishData": {},
+  "targetFramework": "Windows",
+  "coverageMergeWorkflowPath": "CoverageMergeHelperWorkflow.xaml"
+}
